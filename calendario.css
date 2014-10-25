@@ -1,0 +1,51 @@
+table.calendar{
+ 
+  border-radius: 5px;
+ box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  }
+table.calendar td{
+  width:30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 2px;
+  text-align: center;
+
+}
+.checktime{
+  float:left;
+  width: 250px;
+
+}
+#checkin{
+  border: 1px solid #A7A3A8;
+  display:block;
+  border-radius: 5px;
+  height: 25px;
+  width: 170px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 2px #888;
+  padding-top: 6px;
+  padding-left: 15%;
+
+}
+#checkout{
+  display:block;
+  border: 1px solid #A7A3A8;
+  border-radius: 5px;
+  height: 25px;
+  width:  170px;
+  box-shadow: 2px 2px 2px #888;
+  padding-top: 6px;
+  padding-left: 15%;
+
+}
+table.calendar td.select1{
+  background-color: #428bca;
+  color: white;
+
+}
+table.calendar td.select1 p{
+   text-align: center;
+   font-color: red;
+   font-weight: 12px;
+  }
